@@ -3,7 +3,7 @@ Feature: Baseket Functionlity
 
 
 
-@Reg
+@Reg1
 Scenario: Add to cart from PLP
 When user enter "standard_user" and "secret_sauce"
 And user clicks on login button

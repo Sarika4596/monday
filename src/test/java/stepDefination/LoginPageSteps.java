@@ -24,6 +24,11 @@ public class LoginPageSteps {
 	@Then("Validate succesful login")
 	public void validate_succesful_login() {
 	 Assert.assertTrue(login.validateSucessfulLogin());
+	 
+	}
+	@Then("user clicks on Dashboard")
+	public void user_clicks_on_Dashboard() {
+		login.clickOnDashboard();
 	}
 
 	@Then ("validate error message")
